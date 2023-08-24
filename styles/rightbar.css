@@ -1,0 +1,19 @@
+.right-bar{
+  display:flex;
+position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 65px;
+background-color: rgb(243, 242, 242);
+/* width: 300px; */
+padding-top: 5px;
+font-weight: 400;
+opacity: 1;
+}
+
+@media (max-width:1200px){
+  .right-bar {
+    opacity: 0;
+    cursor: default;
+  }
+}

@@ -1,0 +1,62 @@
+.left-bar{
+  display:flex;
+  position: fixed;
+  left: 5px;
+  bottom: 0;
+  top: 65px;
+background-color: rgb(243, 242, 242);;
+width: 300px;
+padding-top: 5px;
+font-weight: 400;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(0, 38, 255);
+border-radius: 10px;
+}
+
+
+
+.scroll-box{
+  overflow: auto;
+  width: 300px;
+}
+
+.first-option{
+  flex: 1;
+  vertical-align: middle;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+}
+.first-option:hover{
+  background-color: rgb(225, 225, 225);
+  cursor: pointer;
+}
+.rest-images{
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+.profile-picture-sidebar{
+  width: 30px;
+}
+
+.text-inside-sidebar{
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 10px;
+
+}
+
+@media (max-width:1200px){
+  .left-bar{
+    opacity: 0;
+  }
+}
